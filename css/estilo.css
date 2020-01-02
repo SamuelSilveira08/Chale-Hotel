@@ -75,6 +75,33 @@ a {
 	text-decoration: none;
 }
 
+#menu {
+	margin-top: 15px;
+}
+
+ul#navegacao {
+	float: left;
+	list-style-type: none;
+}
+
+ul#navegacao a {
+	padding: 5px;
+	line-height: 30px;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	color: #6E672C;
+}
+
+ul#navegacao a:hover {
+	background: #FDF6BE;
+}
+
+.depoimento {
+	float: right;
+	width: 226px;
+	height: 164px;
+}
+
 #conteudo {
 	height: 52%;
 	border: 1px solid blue;
