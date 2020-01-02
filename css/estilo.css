@@ -11,26 +11,38 @@ body {
 
 #container {
 	min-width: 900px;
-	width: 90%;
+	max-width: 1180px;
 	height: 750px;
 	border: 1px solid red;
 	margin: 10px auto;
-	position: relative;
 	background: #EDE9CC;
 }
 
 #topo {
 	height: 33%;
 	background: #DBCD87 url("../imagens/topo-imagem-principal.png") no-repeat;
+	position: relative;
+}
+
+#area-logo {
+	width: 160px;
+	height: 80px;
+	position: absolute;
+	top: 10px;
+	left: 15px;
 }
 
 #area-menu {
-	background: url("../imagens/topo-imagem-lateral.png");
 	width: 450px;
-	height: 33%;
+	height: 100%;
 	position: absolute;
 	top: 0px;
 	right: 0px;
+	background: url(../imagens/topo-imagem-lateral.png);
+}
+
+#area-logo h1 p {
+	text-indent: -9000px;
 }
 
 #conteudo {
