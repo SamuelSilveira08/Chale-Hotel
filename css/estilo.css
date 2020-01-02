@@ -11,15 +11,26 @@ body {
 
 #container {
 	min-width: 900px;
-	width: 95%;
+	width: 90%;
 	height: 750px;
 	border: 1px solid red;
 	margin: 10px auto;
+	position: relative;
+	background: #EDE9CC;
 }
 
 #topo {
 	height: 33%;
-	border: 1px solid blue;
+	background: #DBCD87 url("../imagens/topo-imagem-principal.png") no-repeat;
+}
+
+#area-menu {
+	background: url("../imagens/topo-imagem-lateral.png");
+	width: 450px;
+	height: 33%;
+	position: absolute;
+	top: 0px;
+	right: 0px;
 }
 
 #conteudo {
