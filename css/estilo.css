@@ -1,0 +1,35 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	background: #fff url("../imagens/bg.png");
+	margin: 15px;
+}
+
+#container {
+	min-width: 900px;
+	width: 95%;
+	height: 750px;
+	border: 1px solid red;
+	margin: 10px auto;
+}
+
+#topo {
+	height: 33%;
+	border: 1px solid blue;
+}
+
+#conteudo {
+	height: 52%;
+	border: 1px solid blue;
+	margin-top: 15px;
+}
+
+#rodape {
+	height: 10%;
+	border: 1px solid blue;
+	margin-top: 15px;
+}
