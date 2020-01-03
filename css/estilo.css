@@ -14,7 +14,7 @@ body {
 	max-width: 1180px;
 	height: 750px;
 	margin: 10px auto;
-	background: #EDE9CC;
+	background: #EDE9CC url(../imagens/bg-container.png) top center repeat-y;
 }
 
 #topo {
@@ -104,12 +104,32 @@ ul#navegacao a:hover {
 
 #conteudo {
 	height: 52%;
-	border: 1px solid blue;
-	margin-top: 15px;
+}
+
+#conteudo-esquerda {
+	background: url(../imagens/bg-area-principal.png) top left repeat-x;
+	width: 50%;
+	float: left;
+	padding: 15px 0px;
+}
+
+#conteudo-direita {
+	background: url(../imagens/bg-area-lateral.png) top left repeat-x;
+	width: 50%;
+	float: right;
+	padding: 20px 0px;
+}
+
+#conteudo-esquerda h2 {
+	padding: 5px;
+}
+
+.conteudo {
+	width: 90%;
+	margin: 0 auto;
 }
 
 #rodape {
+	clear: both;
 	height: 10%;
-	border: 1px solid blue;
-	margin-top: 15px;
 }
