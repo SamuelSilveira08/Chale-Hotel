@@ -147,7 +147,9 @@ ul#navegacao a:hover {
 	margin: 0 auto;
 	margin-bottom: 10px;
 	border-bottom: 1px solid #F3EFCB;
-	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-bottom: 20px;
+	padding-top: 10px;
 	float: left;
 }
 
@@ -170,7 +172,8 @@ ul#navegacao a:hover {
 	color: #000;
 }
 
-.caixa a:hover {
+.caixa:hover {
+	display: block;
 	background: #f6f3d6;
 	cursor: pointer;
 }
